@@ -15,19 +15,19 @@ public class Circle implements Figure {
         return getAreaStringByLocalization(local) + getArea();
     }
 
-    private String getAreaStringByLocalization(String local) {
+    public String getAreaStringByLocalization(String local) {
         if (local.equals("rus")) return "Площадь: ";
         if (local.equals("eng")) return "Area: ";
         throw new UnsupportedOperationException("UnsupportedLocale:" + local);
     }
 
 
-   public int getСircumference() {
+   public int getPerimeter() {
       return (int) (2 * r * 3.14);
    }
 
     public String getCircumferenceByLocale(String local){
-      return getCircumferenceByLocalization(local) + getСircumference();
+      return getCircumferenceByLocalization(local) + getPerimeter();
     }
 
     private String getCircumferenceByLocalization(String local) {
