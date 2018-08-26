@@ -7,10 +7,10 @@ public class Main {
         Triangle triangle = new Triangle( 2, 4,7);
         Circle circle = new Circle(10);
 
-        System.out.println(rectangle.getPerimeterByLocale("rus"));
-        System.out.println(square.getPerimeterByLocale("rus"));
-        System.out.println(triangle.getPerimeterByLocale("rus"));
-        System.out.println(circle.getPerimeterByLocale("rus"));
+//        System.out.println(rectangle.getPerimeterByLocale("rus"));
+//        System.out.println(square.getPerimeterByLocale("rus"));
+//        System.out.println(triangle.getPerimeterByLocale("rus"));
+//        System.out.println(circle.getPerimeterByLocale("rus"));
 
         System.out.println(rectangle.getAreaByLocale("rus"));
         System.out.println(square.getAreaByLocale("rus"));
