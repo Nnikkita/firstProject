@@ -15,10 +15,9 @@ public class Triangle implements Figure {
         return a + b + c;
     }
 
-    public String getPerimeterByLocale(String local){
+    public String getPerimeterByLocale(String local) {
         return getPerimeterStringByLocalization(local) + getPerimeter();
     }
-
 
     public int getArea() {
         int sp = getPerimeter() / 2;
@@ -26,8 +25,6 @@ public class Triangle implements Figure {
     }
 
     public String getAreaByLocale(String local) {
-      return getAreaStringByLocalization(local) + getArea();
+        return getAreaStringByLocalization(local) + getArea();
     }
-
-
 }

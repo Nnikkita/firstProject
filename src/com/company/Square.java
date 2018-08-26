@@ -1,11 +1,10 @@
 package com.company;
 
-public class Square implements Figure{
+public class Square implements Figure {
     protected int width;
 
-
-    public Square (int width) {
-       this.width = width;
+    public Square(int width) {
+        this.width = width;
 
     }
 
@@ -17,8 +16,6 @@ public class Square implements Figure{
         return getPerimeterStringByLocalization(local) + getPerimeter();
     }
 
-
-
     public int getArea() {
         return width * width;
     }
@@ -26,10 +23,6 @@ public class Square implements Figure{
     public String getAreaByLocale(String local) {
         return getAreaStringByLocalization(local) + getArea();
     }
-
-
-
-
 }
 
 
