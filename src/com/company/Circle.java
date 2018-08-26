@@ -18,6 +18,7 @@ public class Circle implements Figure {
     public String getAreaStringByLocalization(String local) {
         if (local.equals("rus")) return "Площадь: ";
         if (local.equals("eng")) return "Area: ";
+        if (local.equals("deut")) return "Quadrat: ";
         throw new UnsupportedOperationException("UnsupportedLocale:" + local);
     }
 
@@ -33,6 +34,7 @@ public class Circle implements Figure {
     private String getCircumferenceByLocalization(String local) {
         if (local.equals("rus")) return "Длина окружности: ";
         if (local.equals("eng")) return "Circumference: ";
+        if (local.equals("deut")) return "Umfang: ";
         throw new UnsupportedOperationException("UnsupportedLocale:" + local);
     }
 
